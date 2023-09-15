@@ -10,6 +10,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import Error from "./Error";
 import GoToTop from "./components/GoToTop";
 import Teams from "./Teams";
+import News from "./News"
 
 const App = () => {
   const theme = {
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/service" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/news" element={<News />} />
           <Route path="*" element={<Error />} />
         </Routes>
 

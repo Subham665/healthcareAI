@@ -119,7 +119,31 @@ const Navbar = () => {
     <Nav>
       <div className={openMenu ? "menuIcon active" : "menuIcon"}>
         <ul className="navbar-list">
-        
+        <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/about">
+              About
+            </NavLink>
+          </li>
+          
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/service">
+              Services
+            </NavLink>
+          </li>
+          {/* <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/contact">
+              Contact
+            </NavLink>
+          </li> */}
           <li>
             <NavLink
               className="navbar-link"
@@ -132,24 +156,8 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
-              to="/about">
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/service">
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="navbar-link"
-              onClick={() => setOpenMenu(false)}
-              to="/contact">
-              Contact
+              to="/news">
+              News
             </NavLink>
           </li>
         </ul>
