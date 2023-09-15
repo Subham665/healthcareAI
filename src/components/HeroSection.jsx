@@ -17,7 +17,7 @@ const HeroSection = () => {
           The diagnosis assistant works as an assistant to real doctors, which conducts a detailed symptom investigation and extracts relevant symptoms through conversing with a patient depending on chief patient complaints and ongoing dialogue context.
           </p>
           <Button className="btn hireme-btn">
-            <NavLink to="/contact"> Get Started </NavLink>
+            <NavLink to="/contact"> Contact Us </NavLink>
           </Button>
         </div>
 

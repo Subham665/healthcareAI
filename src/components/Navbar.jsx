@@ -127,6 +127,14 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/getStarted">
+              Get-started
+            </NavLink>
+          </li>
           
           <li>
             <NavLink

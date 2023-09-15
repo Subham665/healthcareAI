@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./images/logo3.png" alt="logo" className="logo" />
+        <img src=".\images\health-logo.png" alt="logo" className="logo" />
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -23,6 +23,7 @@ const MainHeader = styled.header`
   align-items: center;
 
   .logo {
+    padding-top:20px;
     height: auto;
     max-width: 30%;
   }

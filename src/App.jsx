@@ -11,6 +11,7 @@ import Error from "./Error";
 import GoToTop from "./components/GoToTop";
 import Teams from "./Teams";
 import News from "./News"
+import Getstarted from "./getStarted";
 
 const App = () => {
   const theme = {
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/news" element={<News />} />
+          <Route path="/getStarted" element={<Getstarted />} />
           <Route path="*" element={<Error />} />
         </Routes>
 

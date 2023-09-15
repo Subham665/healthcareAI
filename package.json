@@ -19,7 +19,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
-    "vite": "^3.0.0"
+    "vite": "^3.2.7"
   },
   "description": "****UPDATE 2-SEP-2022\r The API is not working anymore because the Railway Server has it's limitations and we reached that limitation and we don't have paid subscription of it. \r But I will surely fix it soon and update the URL link ok.",
   "main": "vite.config.js",
